@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <PageSection
       name="contact"
-      title="Contact"
-      subtitle={`Nevermore outpour hesitating whispered all my demons, marvelled that bird said and meant back entreating dying. Parting the above broken.
+      title="Contact Us"
+      subtitle={`If you are a brand or want to give a speech, please do reach out to use by filling this form below:
 
   `}
     >
@@ -23,19 +23,31 @@ const Contact = () => {
             alt="contact us"
             className="rounded-full object-cover w-72 h-72 shadow-lg shadow-thPurple"
           />
+          <div className="flex flex-col justify-center items-center">
 
           <p className=" py-12 max-w-md">
-            Off what of no stronger that. Oh help this i tapping is door hear i.
-            Rare in the i tossed and him has, and hesitating i thy burned into
-            or.
+            <h1 className="text-4xl text-center">Reach out to:</h1>
+            <br />
+            Name: Dipayan Sarkar,
+            <br />
+            Co-Lead, GDSC RKMGEC,
+            <br />
+            Email: dipayan@gdsc.in
           </p>
+          </div>
 
           <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
             <div className="flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-105 duration-200 p-3 cursor-pointer">
-              <FaLinkedin size={25} />
+              <a target={"_blank"} rel="noreferrer" href="https://www.linkedin.com/company/gdsc-rkmgec/">
+
+              <FaLinkedin  size={25} />
+              </a>
             </div>
             <div className="flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-105 duration-200 p-3 cursor-pointer">
+              <a target={"_blank"} rel="noreferrer" href="https://twitter.com/gdsc_rkmgec">
+
               <FaTwitter size={25} />
+              </a>
             </div>
           </div>
         </div>

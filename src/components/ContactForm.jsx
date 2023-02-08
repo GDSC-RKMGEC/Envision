@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div className="p-4 text-left">
       <form
-        action="https://getform.io/f/6d61d3bb-f695-4698-aa1f-9891cd5f88d5"
+        action="https://getform.io/f/5169b1e4-305a-43e5-b42b-142a6f0e1e13"
         method="POST"
       >
         <div className="grid lg:grid-cols-2 gap-4 w-full py-2">
@@ -44,7 +44,7 @@ const ContactForm = () => {
             />
           </div>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center animate-pulse">
           <GradientBtn className="ml-4 mt-4 capitalize" title="send message" />
         </div>
       </form>

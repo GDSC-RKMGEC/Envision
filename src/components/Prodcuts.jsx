@@ -8,38 +8,38 @@ const Prodcuts = () => {
     {
       id: 1,
       icon: <FaRocket size={50} className="text-white" />,
-      title: "rocket manufacturing",
+      title: "Solution Challange Hackathon",
       subtitle:
-        "Fact from with my the i, this shadows soul i mien was of bird, raven till mien before by of. The lordly one fancy me not and croaking smiling, but hear lamplight entrance tempest a name i, sitting gave name each the quoth my door his implore. I i nothing.",
+        "Build a solution to a local problem using Google technologies, in accordance with one or more of the United Nations 17 Sustainable Development Goals.",
     },
     {
       id: 2,
       icon: <FaMicrochip size={50} className="text-white" />,
-      title: "advanced electronics",
+      title: "Coding Fortnight 6.0",
       subtitle:
-        "Fact from with my the i, this shadows soul i mien was of bird, raven till mien before by of. The lordly one fancy me not and croaking smiling, but hear lamplight entrance tempest a name i, sitting gave name each the quoth my door his implore. I i nothing.",
+        "The competition will bring the complete coding community close and help them to increase their productivity. Also, for motivating your efforts ",
     },
     {
       id: 3,
       icon: <FaRobot size={50} className="text-white" />,
-      title: "robotics",
+      title: "Technical Exhibition",
       subtitle:
-        "Fact from with my the i, this shadows soul i mien was of bird, raven till mien before by of. The lordly one fancy me not and croaking smiling, but hear lamplight entrance tempest a name i, sitting gave name each the quoth my door his implore. I i nothing.",
+        "2023 edition of International Technical Exhibition on Image Technology and Equipment will be held at Rabindra Bhavan on 16th December.",
     },
     {
       id: 4,
       icon: <FaSatellite size={50} className="text-white" />,
-      title: "payload to orbit",
+      title: "payload Gaming Corners",
       subtitle:
-        "Fact from with my the i, this shadows soul i mien was of bird, raven till mien before by of. The lordly one fancy me not and croaking smiling, but hear lamplight entrance tempest a name i, sitting gave name each the quoth my door his implore. I i nothing.",
+        "Players can participate for professional competitions for a range of games such as GTA V, COD, Apex Legends & other games.",
     },
   ];
 
   return (
     <PageSection
-      name="products"
-      title="Products"
-      subtitle={`Plainly lamplight whether evermore thereat tell, we or scarce bird spoken he whether on, sinking thy again sent what eyes tinkled his explore these. Within melancholy sad bird not respiterespite..`}
+      name="Activities"
+      title="Activities"
+      subtitle={`We will host many activities in ENVISION like Solution Challange Hackathon, Coding Fortnight Quater Finals, Tech Exhibitions, Payload Gaming Corners, and many more...`}
     >
       <div className="grid lg:grid-cols-2 gap-12 text-black">
         {products.map(({ id, icon, title, subtitle }) => (

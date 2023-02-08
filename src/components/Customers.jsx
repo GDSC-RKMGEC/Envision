@@ -1,71 +1,39 @@
 import React from "react";
 import PageSection from "./PageSection";
 
-import {
-  FaAmazon,
-  FaApple,
-  FaFacebook,
-  FaGoogle,
-  FaSnapchatGhost,
-} from "react-icons/fa";
+
 
 const Customers = () => {
   const facts = [
     {
       id: 1,
-      title: "$49M",
-      subtitle: "Was and broken pallas rustling thy.",
+      title: "500+",
+      subtitle: "General Members along with our Core Leads both in and outside of RKMGEC",
     },
     {
       id: 2,
-      title: "57%",
-      subtitle: "Much my quaint dream mortals of.",
+      title: "1000+",
+      subtitle: "Community Members along with both in and outside of RKMGEC",
     },
     {
       id: 3,
-      title: "3 months later",
-      subtitle: "Whose in from oer and a the is ghastly.",
+      title: "Collaborated with 22+",
+      subtitle: "GDSC Student Chapters across India",
     },
     {
       id: 4,
-      title: "7 new countries",
-      subtitle: "Door the beating door me unto that.",
+      title: "957+",
+      subtitle: "Participants in Coding Fortnight Competition organized by us in October,2022",
     },
   ];
 
-  const companies = [
-    {
-      id: 1,
-      icon: <FaGoogle size={25} />,
-      title: "google",
-    },
-    {
-      id: 2,
-      icon: <FaFacebook size={25} />,
-      title: "facebook",
-    },
-    {
-      id: 3,
-      icon: <FaAmazon size={25} />,
-      title: "amazon",
-    },
-    {
-      id: 4,
-      icon: <FaApple size={25} />,
-      title: "apple",
-    },
-    {
-      id: 5,
-      icon: <FaSnapchatGhost size={25} />,
-      title: "snapchat",
-    },
-  ];
+ 
 
   return (
     <PageSection
-      name="customers"
-      title="Customers"
-      subtitle={`Still bird made so and more the desolate soul fearing door, maiden fowl suddenly is get on and my.`}
+      name="GDSC RKMGEC"
+      title="GDSC RKMGEC"
+      subtitle={`Google Developer Student Clubs of Ramkrishna Mahato Government Engineering College has:`}
     >
       <>
         <div className="grid lg:grid-cols-4 text-left gap-8 mb-16">
@@ -80,17 +48,9 @@ const Customers = () => {
           ))}
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-around gap-6">
-          {companies.map(({ id, icon, title }) => (
-            <div
-              className="flex items-center capitalize p-4 rounded-lg"
-              key={id}
-            >
-              {icon}
-              <p className="ml-2">{title}</p>
+            <div className="flex text-center justify-center items-center mt-40 animate-bounce">
+              <h1 className="text-4xl">We are looking for <span className="text-orange-500 font-bold">Sponsorship</span> & <span className="text-cyan-300 font-bold">Speakers</span></h1>
             </div>
-          ))}
-        </div>
       </>
     </PageSection>
   );

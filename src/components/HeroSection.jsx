@@ -35,14 +35,17 @@ const HeroSection = ({ isMenuShown }) => {
           isVideoPlaying ? "" : "bg-black/80"
         } ${isMenuShown ? "opacity-20" : "opacity-100"}`}
       >
-        <h1 className="text-5xl lg:text-7xl">Web 3.0</h1>
-        <h1 className="text-5xl lg:text-7xl capitalize mb-12">
-          the the <span className="text-thBlue font-bold">future</span> is here
+        <h3 className="text-3xl lg:text-4xl mt-2"><span className="text-orange-500 font-bold">GDSC RKMGEC</span> presents</h3>
+        <h1 className="text-5xl lg:text-7xl capitalize animate-pulse">
+         <span className="font-bold">ENVISION</span> 2023
         </h1>
+        <h4 className="text-3xl lg:text-4xl capitalize mb-6">
+         A <span className="text-green-500 font-bold">Technical</span> Festival
+        </h4>
 
         <div className="flex flex-row justify-center items-center">
-          <GradientBtn className="capitalize" title="get anton" />
-          <GradientBtn className="capitalize mx-12" title="products" />
+          <GradientBtn className="capitalize mr-3" title="Coming Soon" />
+          {/* <GradientBtn className="capitalize mx-12" title="Activities" /> */}
 
           {isVideoPlaying ? (
             <FaPauseCircle
